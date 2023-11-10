@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondaryVariant"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/contact_us_if_you"
+        android:textColor="?attr/colorOnSecondary" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        style="@style/edit_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="username"
+        android:hint="@string/your_name"
+        android:inputType="textPersonName"
+        android:textColor="?attr/colorOnSecondary"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/email_body_edit_text"
+        style="@style/edit_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autofillHints="no"
+        android:gravity="top|start"
+        android:hint="@string/text"
+        android:inputType="textEmailAddress"
+        android:textColor="?attr/colorOnSecondary"
+        android:textColorHint="@color/grey" />
+
+    <Button
+        android:id="@+id/button_send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style"
+        android:text="@string/send"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondaryVariant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/small_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="-16dp"
+            android:text="@string/ccp_kolyadichi"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/kolyadichi_description"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <Button
+            android:id="@+id/button_kolyadichi_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_style"
+            android:text="@string/build_a_route"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="@style/small_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="-16dp"
+            android:text="@string/ccp_minsk_fez"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/minsk_fez_description"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <Button
+            android:id="@+id/button_minsk_fez_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_style"
+            android:text="@string/build_a_route"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="@style/small_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="-16dp"
+            android:text="@string/ccp_kulttorg"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/kulttorg_description"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <Button
+            android:id="@+id/button_kulttorg_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_style"
+            android:text="@string/build_a_route"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="@style/small_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="-16dp"
+            android:text="@string/grodno_department"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/grodno_description"
+            android:textColor="?attr/colorOnSecondary" />
+
+        <Button
+            android:id="@+id/button_grodno_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_style"
+            android:text="@string/build_a_route"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

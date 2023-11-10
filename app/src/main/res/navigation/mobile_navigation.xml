@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="by.custom.calculatorutilsbor.view.MainFragment"
+        android:label="@string/main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="by.custom.calculatorutilsbor.view.ContactFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_phones"
+        android:name="by.custom.calculatorutilsbor.view.PhonesFragment"
+        android:label="@string/phone_us"
+        tools:layout="@layout/fragment_phones" />
+
+    <activity
+        android:id="@+id/nav_website"
+        app:action="android.intent.action.VIEW"
+        app:data="https://custom.by"/>
+
+</navigation>
